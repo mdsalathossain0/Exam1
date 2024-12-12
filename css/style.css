@@ -56,11 +56,11 @@ header .container .heading-part .left span p{
     color: #FFFFFF;
 }
 header .heading-part .right{
-    margin: 0 auto;
+    position: relative;
 }
-header .heading-part .right .icon{
-    display: flex;
-    align-items: flex-end;
+header .heading-part  .right .icon{
+    position: absolute;
+    right: 0;
 }
 header .heading-part .right ul{
     display: flex;
@@ -76,11 +76,11 @@ header .heading-part .right ul{
     align-items: center;
 }
 .nav .logo{
-    width: 30%;
+    width: 40%;
 
 }
 .nav .nav-ber{
-    width: 40%;
+    width: 35%;
     
 }
 .nav .nav-ber ul{
@@ -96,7 +96,7 @@ header .heading-part .right ul{
     font-family: "Poppins", sans-serif;
 }
 .nav .button{
-    width: 30%;
+    width: 25%;
 }
 .nav .button a{
     color: white;
@@ -106,6 +106,7 @@ header .heading-part .right ul{
     font-family: "Poppins", sans-serif;
     border: 1px solid white;
     padding: 13px 31px;
+    margin-left: 190px;
     
 }
 /* nav part end */
