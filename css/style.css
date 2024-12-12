@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+   
+    background: #282828;
+    padding: 10px 0;
+}
+.container{
+    width: 1340px;
+    margin: 0 auto;
+
+}
+header .heading-part{
+    display: flex;
+}
+.box{
+    display: flex;
+}
+/* heading part start */
+header .container .heading-part .left{
+    width: 50%;
+    display: flex;
+
+    
+}
+header .container .heading-part .right{
+    width: 50%;
+}
+header  .heading-part .left .left1{
+    width: 25%;
+}
+header .heading-part .left .left2{
+    width: 250px;
+    padding-left: 30px;
+}
+
+header .heading-part .right i{
+    color: white;
+}
+header .heading-part .left .left2 p{
+    width: 250px;
+}
+header  .container .heading-part .left span{
+    display: flex;
+}
+header .container .heading-part .left span i{
+    color: #FFFFFF;
+    padding-right: 5px;
+}
+header .container .heading-part .left span p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+}
+header .heading-part .right{
+    margin: 0 auto;
+}
+header .heading-part .right .icon{
+    display: flex;
+    align-items: flex-end;
+}
+header .heading-part .right ul{
+    display: flex;
+    list-style: none;
+    column-gap: 14px;
+    
+}
+/* heading part end */
+/* nav part start */
+.nav{
+    padding: 30px 0;
+    background: #F40404;
+    align-items: center;
+}
+.nav .logo{
+    width: 30%;
+
+}
+.nav .nav-ber{
+    width: 40%;
+    
+}
+.nav .nav-ber ul{
+    display: flex;
+    list-style: none;
+    column-gap: 47px;
+    
+}
+.nav .nav-ber ul li{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.nav .button{
+    width: 30%;
+}
+.nav .button a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid white;
+    padding: 13px 31px;
+    
+}
+/* nav part end */
+/* industry part start */
+.industry{
+    width: 100%;
+    height: 100px;
+    background: url("/images/industry.png");
+}
+/* industry part end */
