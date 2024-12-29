@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+
 }
 .common-button a{
     background: #F40404;
@@ -69,7 +70,7 @@ body {
 
 .banner{
     
-    background-image: url('/images/industry.png'); 
+    background-image: url('../images/industry.png'); 
     background-repeat: no-repeat;
     background-position: center ;
     background-size: cover;
@@ -125,6 +126,74 @@ body {
 
 /* simg part end */
 /* services part start */
-.
+.services{
+    margin-top: 20px;
+}
+.services .box{
+   flex-wrap: wrap;
+}
+.services .supply-part{
+    width: 50%;
+    height: 410px;
+}
+.services .supply-part .text-part{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.services .supply-part .text-part h2{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #000000;
+}
+.services .supply-part .text-part p{
+    width: 350px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    color: #6C6C6C;
+}
+.services .supply-part1{
+    width: 50%;
+    height: 410px;
+    background-image: url('../images/unsplash1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+.services .supply-part2{
+    width: 50%;
+    height: 410px;
+    background-image: url('../images/unsplash2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+.services .supply-part3{
+    width: 50%;
+    height: 410px;
+    background-image: url('../images/unsplash3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+.services h3{
+    width: 680px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    color: #FFFFFF;
+    padding-bottom: 19px;
+}
+.services .text-button-part{
+    padding-top: 147px;
+    padding-left: 50px;
+}
 
 /* services part end */
