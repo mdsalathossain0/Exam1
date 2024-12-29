@@ -1,119 +1,130 @@
-*{
-    margin: 0;
-    padding: 0;
+body {
+    overflow-x: hidden;
 }
-header{
-   
-    background: #282828;
-    padding: 10px 0;
+.common-button a{
+    background: #F40404;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    padding: 13px 40px;
+    border: 1px solid transparent;
 }
-.container{
-    width: 1340px;
-    margin: 0 auto;
-
-}
-header .heading-part{
-    display: flex;
+.common-button a:hover{
+    background: transparent;
+    border: 1px solid #F40404;
+    cursor: pointer;
+    
 }
 .box{
     display: flex;
 }
-/* heading part start */
-header .container .heading-part .left{
-    width: 50%;
-    display: flex;
-
-    
-}
-header .container .heading-part .right{
-    width: 50%;
-}
-header  .heading-part .left .left1{
-    width: 25%;
-}
-header .heading-part .left .left2{
-    width: 250px;
-    padding-left: 30px;
+.header{
+    background: #282828;
+    padding-top: 16px;
+    padding-bottom: 13px;
 }
 
-header .heading-part .right i{
-    color: white;
-}
-header .heading-part .left .left2 p{
-    width: 250px;
-}
-header  .container .heading-part .left span{
-    display: flex;
-}
-header .container .heading-part .left span i{
+.header p{
     color: #FFFFFF;
-    padding-right: 5px;
-}
-header .container .heading-part .left span p{
     font-size: 12px;
     font-weight: 400;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", serif;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    column-gap: 12px;
+    justify-content: flex-end;
+}
+.header ul li{
     color: #FFFFFF;
 }
-header .heading-part .right{
-    position: relative;
-}
-header .heading-part  .right .icon{
-    position: absolute;
-    right: 0;
-}
-header .heading-part .right ul{
-    display: flex;
-    list-style: none;
-    column-gap: 14px;
-    
-}
-/* heading part end */
-/* nav part start */
-.nav{
-    padding: 30px 0;
+/* navber part start */
+.navbar{
     background: #F40404;
-    align-items: center;
+    padding: 27px 0;
 }
-.nav .logo{
-    width: 40%;
-
-}
-.nav .nav-ber{
-    width: 35%;
-    
-}
-.nav .nav-ber ul{
-    display: flex;
-    list-style: none;
-    column-gap: 47px;
-    
-}
-.nav .nav-ber ul li{
+.navbar .nav-item a{
+    color: #FFFFFF;
     font-size: 16px;
-    font-weight: 500;
-    color: white;
-    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-family: "Poppins", serif;
 }
-.nav .button{
-    width: 25%;
-}
-.nav .button a{
-    color: white;
+.navbar .nav-button a{
     text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
-    border: 1px solid white;
-    padding: 13px 31px;
-    margin-left: 190px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 13px 32px;
+}
+.navbar .navbar-nav{
+    column-gap: 47px;
+}
+/* navber part end */
+/* industryr part start */
+
+.banner{
+    
+    background-image: url('/images/industry.png'); 
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    width: 100%; 
+    height: 548px; 
     
 }
-/* nav part end */
-/* industry part start */
-.industry{
-    width: 100%;
-    height: 100px;
-    background: url("/images/industry.png");
+
+
+.banner .banner-text h1{
+    padding-top: 190px;
+    width: 842px;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #FFFFFF;
+    padding-bottom: 31px;
+}  
+
+
+/* industryr part end */
+/* supplier part start */
+.supllier {
+    
+    padding-top: 78px;
+    padding-bottom: 100px;
 }
-/* industry part end */
+.supllier h2{
+    width: 288px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    color: #000000;
+}
+.supllier p{
+    width: 650px; 
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    color: #6C6C6C;
+}
+/* supplier part end */
+/* simg part start */
+
+.simg .simg-img{
+    width: 98%;
+    height: 380px;
+}
+.simg .simg-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* simg part end */
+/* services part start */
+.
+
+/* services part end */
