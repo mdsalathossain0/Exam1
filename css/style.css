@@ -197,3 +197,131 @@ body {
 }
 
 /* services part end */
+/* company part end */
+.company{
+    background: #F0F0F0;
+    padding: 100px 0;
+}
+
+.company .about{
+    width: 100%;
+    height: 200px;
+    background: #F40404;
+}
+.company .about h3{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    color: #FFFFFF;
+    width: 260px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.company-img{
+    width: 100%;
+    height: 200px;
+    background-image: url('../images/companyimg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.company .company-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* company part end */
+/* logo part start */
+.logo-part{
+    padding: 100px 0;
+}
+/* logo part end */
+/* card-img part start */
+.card-part{
+    background: #F0F0F0;
+    padding: 100px;
+}
+.card-part .card-img1{
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/cardimg1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card-part .card-img2{
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/cardimg2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card-part .card-img3{
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/cardimg3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .50);
+}
+.card-part .overlay p{
+    width: 220px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 45px;
+}
+.card-part .overlay .button{
+    padding-left: 70px;
+}
+.card-part .overlay a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    background: rgba(255, 255, 255, 50%);
+    padding: 10px 22px;
+}
+/* card-img part end */
+/* map part start */
+.map-part{
+    width: 100%;
+    height: 450px;
+    background-image: url('../images/map.png');
+}
+/* map part end */
+/* area part start */
+.area{
+    background: #F40404;
+    padding: 45px 0;
+}
+.area h2{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+}
+.area .nav-button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 13px 32px;
+    display: flex;
+    justify-self: flex-end;
+}
+/* area part end */
+/* footer part end */
+.footer-part{
+    background: #1F1F1F;
+}
+/* footer part end */
