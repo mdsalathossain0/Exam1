@@ -323,5 +323,67 @@ body {
 /* footer part end */
 .footer-part{
     background: #1F1F1F;
+    padding: 100px 0;
+}
+.footer-part p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Poppins", serif;
+}
+.footer-part .logo{
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+.footer-part .icon ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 20px;
+}
+.footer-part .icon ul li{
+    color: #F40404;
+    font-size: 24px;
+}
+.footer-part .list{
+    padding-top: 60px;
+}
+.footer-part .list p{
+   color: #FFFFFF;
+   font-size: 16px;
+   font-weight: 400;
+   font-family: "Poppins", serif;
+}
+.footer-part .list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    row-gap: 20px;
+}
+.footer-part .list ul li{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Poppins", serif;
+    
+}
+.footer-part .logo-last{
+    display: flex;
+    column-gap: 10px;
 }
 /* footer part end */
+/* footerEnd part start */
+.footer-end{
+    background: #282828;
+    padding: 30px 0;
+}
+.footer-end p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", serif;
+}
+/* footerEnd part end */
